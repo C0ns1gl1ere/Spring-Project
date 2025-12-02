@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody; // Import this!
 public class HelloController {
 
     @GetMapping(value = "/")
-    @ResponseBody // <--- ADD THIS ANNOTATION
+    @ResponseBody
     public String hello() {
         return "Hello Vistula, in my first Spring controller.";
     }

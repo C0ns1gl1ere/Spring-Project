@@ -5,7 +5,7 @@ Hi! This is my project for **Task 1**. It is a simple web application built with
 ## Technologies Used
 * **Java 21**
 * **Spring Boot**
-* **Thymeleaf** (for the frontend view)
+* **Thymeleaf** 
 * **Maven**
 
 ## How to Run the Application

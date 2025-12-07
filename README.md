@@ -9,7 +9,7 @@ Hi! This is my project for **Task 1**. It is a simple web application built with
 * **Maven**
 
 ## How to Run the Application
-1.  Open the project in your IDE (IntelliJ IDEA).
+1.  Open the project in your IDE .
 2.  Run the application using the Maven wrapper command:
     ```bash
     ./mvnw spring-boot:run
@@ -23,14 +23,17 @@ Here are the endpoints I implemented according to the instructions:
 ### 1. Root Page
 * **URL:** `http://localhost:8080/`
 * **Description:** Displays a simple text message from the controller.
-* **Result:** "Hello Vistula, in my first Spring controller."
+* **Result:**
+  ![Root Page Screenshot](screenshots/root.png)
 
-### 2. Greeting Page 
+### 2. Greeting Page
 * **URL:** `http://localhost:8080/greeting`
-* **Description:** Displays a greeting page with a default name ("World") and the Vistula University logo.
-* **Result:** "Hello, World!"
+* **Description:** Displays a greeting page with a default name.
+* **Result:**
+  ![Greeting Page Screenshot](screenshots/greeting.png)
 
-### 3. Greeting Page 
+### 3. Greeting Page (Custom)
 * **URL:** `http://localhost:8080/greeting?name=Student`
-* **Description:** Displays the greeting page customized with the name provided in the parameter.
-* **Result:** "Hello, Student!"
+* **Description:** Displays the greeting page customized with the name provided.
+* **Result:**
+  ![Custom Greeting Screenshot](screenshots/greeting-student.png)
